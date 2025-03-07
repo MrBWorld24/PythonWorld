@@ -1,0 +1,7 @@
+n=int(input())
+sum=float(0)
+for i in range(0,n):
+    x=float(input())
+    sum=sum + x
+    avg=sum/n
+print("The average is: {:.2f}".format(avg))
