@@ -1,0 +1,10 @@
+import math
+s1=float(input())
+s2=float(input())
+s3=float(input())
+if(s1+s2<s3 or s2+s3<s1 or s1+s3<s2):
+    print("Invalid Triangle")
+else:
+    s=(s1+s2+s3)/2
+    area=(math.sqrt(s*(s-s1)*(s-s2)*(s-s3)))
+    print("The area of the triangle is: {:.2f}".format(area))
