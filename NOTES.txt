@@ -1,0 +1,38 @@
+end='\n' or end= ' ' -> acts as new line or makes separate print statements stay in the same line.
+sep=' ' -> act as separator between words to be printed separated by comma.
+______________________________________________________________________________
+
+Boolean -> is_married = False
+______________________________________________________________________________
+
+Disadvantage - memory allocation happens during execution speed hence speed is reduced
+______________________________________________________________________________
+
+camel casing -> isMarried
+pascal casing -> IsMarried 
+snake casing -> is_married --- Python recommended
+______________________________________________________________________________
+
+print(type(____)) -> gives the datatype of the variable
+______________________________________________________________________________
+
+datatype(input("____")) -> read from user, data specific
+______________________________________________________________________________
+
+for loop -> executes specific or known amnt of times.
+while loop -> executes no. of times depending on a condition.
+______________________________________________________________________________
+
+in python there is no increment operator 
+count +=1 / count = count + 1
+______________________________________________________________________________
+
+break - stop before that value
+continue - skips the no
+______________________________________________________________________________
+
+default sort in python- tim sort
+______________________________________________________________________________
+float('inf')
+-float('inf')
+  - used to compare elements professionally
