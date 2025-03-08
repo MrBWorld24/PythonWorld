@@ -1,0 +1,11 @@
+s=input("Enter string : ")
+ns=''
+for i in s:
+    if i.isupper():
+        o=(i.lower())
+    elif i.islower():
+        o=(i.upper())
+    else:
+        o=i
+    ns +=o
+print('THE CONVERTED STRING IS:',ns)
