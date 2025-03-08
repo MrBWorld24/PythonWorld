@@ -1,0 +1,21 @@
+#Reverse a number
+n=int(input())
+r=int(str(n)[::-1])
+print(r)
+
+#Palindrome or Not
+n=int(input())
+r=int(str(n)[::-1])
+if(n==r):
+    print("The number is a palindrome")
+else:
+    print("The number is not a palindrome")
+
+#circle
+r=float(input())
+PI=float(3.1416)
+circumference=2*PI*r
+area=PI*r*r
+print("The circumference of the circle is: {:.2f}".format(circumference))
+print("The area of the circle is: {:.2f}".format(area))
+
